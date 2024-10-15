@@ -25,13 +25,15 @@ Before you begin, ensure you have the following installed:
    After navigating into the project directory, install the required dependencies using npm:
    ```bash
    npm install
+   ```
 3. **Initialize TypeScript and Jest**
    The project already includes configuration files for TypeScript (`tsconfig.json`) and Jest (`jest.config.js`). However, if needed, you can initialize them using the following commands:
    ```bash
    npx tsc --init   
    npx ts-jest config:init
+   ```
 
-   ## Running the Tests
+## Running the Tests
 
 To run the test suite and ensure everything is working correctly, use the following command:
 
